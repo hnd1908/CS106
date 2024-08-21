@@ -1,0 +1,13 @@
+python pacman.py -l mediumClassic -p AlphaBetaAgent -a depth=3,evalFn=better -s 22520468 --frameTime 0
+python pacman.py -l mediumClassic -p AlphaBetaAgent -a depth=3,evalFn=scoreEvaluationFunction -s 22520468 --frameTime 0
+python pacman.py -l mediumClassic -p AlphaBetaAgent -a depth=3,evalFn=better -s 22520467 --frameTime 0
+python pacman.py -l mediumClassic -p ExpectimaxAgent -a depth=3,evalFn=better -s 22520467 --frameTime 0
+python pacman.py -l originalClassic -p AlphaBetaAgent -a depth=2,evalFn=better -s 22520467 --frameTime 0
+python pacman.py -l originalClassic -p ExpectimaxAgent -a depth=2,evalFn=better -s 22520467 --frameTime 0
+
+python pacman.py -l openClassic -p ExpectimaxAgent -a depth=3,evalFn=better -s 22520467 --frameTime 0
+python pacman.py -l capsuleClassic -p ExpectimaxAgent -a depth=3,evalFn=scoreEvaluationFunction -s 22520467 --frameTime 0
+python pacman.py -l capsuleClassic -p ExpectimaxAgent -a depth=3,evalFn=better -s 22520467 --frameTime 0
+
+python pacman.py -l openClassic -p AlphaBetaAgent -a depth=3,evalFn=score -s 22520467 --frameTime 0
+python pacman.py -l openClassic -p AlphaBetaAgent -a depth=3,evalFn=better -s 22520467 --frameTime 0
