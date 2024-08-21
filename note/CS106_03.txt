@@ -1,0 +1,34 @@
+Informed search
+- Search Heuristic: function estimate how close to goal
+  Ex: using coordinates to estimate Euclide distance and direction between 2 points
+  * Euclide distance is often used in heuristic function to calculate path
+  + Strategy: expand the node that seems closest (Ex: having the shortest Euclide distance to the goal)
+	* Combining heuristic function and Greedy Search is quick, cost-efficient but not optimal (not shortest path)
+	=> Basically Informed DFS
+	  Best scenario: Having good heuristic function
+	  Worst scenario: Going all the wrong way (that still have shortest Euclide distance)
+	Greedy Search can be compared to Gradient Descent, where the Loss Function can be used to generate heuristic function (Opposite direction to Loss Vector). Sometimes Gradient Vector points the wrong way, and sometimes it points to the goal.
+- A* Search 
+  + Strategy: expand the node that have lowest sum of path cost and estimated cost
+	* A* is (said to be) a combination of USC and Greedy, traverse through less node than USC and having a more optimal path than Greedy
+	NOTICE: Remember not to stop when we enqueqed a goal, as it might not be the most optimal path
+	=> For A* Search to be optimal, Heuristic function should be optimal, or Admissible
+- Admissible Heuristic (Optimistic)
+	Inadmissible Heuristic overcalculate estimated distance, whereas Admissible Heuristic notice both estimated and true costs, in which estimated never outweight true costs.
+	A Heuristic h is admissible if: 0<=h(n)<=h*(n), where h*(n) is the true cost to the nearest goal
+	Because Heuristic function never consider the obstacles in the true path, so it should be at least equal to the true path
+	* If A* is set with Graph Search, it might skip actual optimal path; even with Admissible Heuristic
+	Graph Search: never expand a state twice, store the closed as a set (non - repeated elements) => Can be implemented on BFS, but can wreck completeness of A* Search
+- Consistent Heuristic
+	Heuristic "arc" cost <= true cost
+	Ex: h(A) - h(C) should be less than or equal to the AC distance
+	=> Consequences of Consistency: 
+		+ f value along the path should NEVER decreases
+			h(A) <= cost(A to C) + h(C)
+		+ A* graph search shold be optimal
+	* UCS has heuristic function that always return 0 (Both Admissible and Consistent) => Trivial (Badly basic) => Time cost
+	Optimal vs Time-efficiency tradeoff!
+		Tree search needs admissible heuristic to be optimal
+		Grapth search needs consistent heuristic to be optimal
+		MOST natural admissible heuristic tends to be consistent
+	=> A* search is basically UCS, but tends to go to the direction of the goal while still maintaining most optimal path

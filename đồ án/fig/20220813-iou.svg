@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="580px" height="250px" viewBox="0 0 580 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Medium@1x</title>
+    <g id="Medium" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="580" height="250"></rect>
+        <text id="IoU" font-family="CMUSerif-Bold, CMU Serif" font-size="26" font-weight="bold" fill="#334155">
+            <tspan x="26.73" y="132">IoU</tspan>
+        </text>
+        <g id="Group" transform="translate(127.000000, 82.000000)" fill="#334155" font-family="CMUSerif-Roman, CMU Serif" font-size="26" font-weight="400">
+            <text id="Area-of-Intersection">
+                <tspan x="0.606" y="24">Area of Intersection</tspan>
+            </text>
+            <text id="Area-of-Union">
+                <tspan x="32.982" y="77">Area of Union</tspan>
+            </text>
+        </g>
+        <text id="=" font-family="CMUSerif-Roman, CMU Serif" font-size="26" font-weight="400" fill="#334155">
+            <tspan x="87.772" y="133">=</tspan>
+        </text>
+        <text id="=-copy" font-family="CMUSerif-Roman, CMU Serif" font-size="26" font-weight="400" fill="#334155">
+            <tspan x="373.772" y="133">=</tspan>
+        </text>
+        <line x1="122.5" y1="126.5" x2="360.5" y2="126.5" id="Line" stroke="#334155" stroke-width="1.5" stroke-linecap="square"></line>
+        <line x1="405" y1="126.5" x2="555" y2="126.5" id="Line-Copy" stroke="#334155" stroke-width="1.5" stroke-linecap="square"></line>
+        <g id="Union-Area" transform="translate(438.000000, 137.000000)">
+            <rect id="Groundtruth-Copy-2" stroke="#22C55E" stroke-width="2" x="1" y="1" width="54" height="54"></rect>
+            <rect id="Prediction-Copy-2" stroke="#EF4444" stroke-width="2" x="29" y="23" width="54" height="54"></rect>
+            <path d="M54,2 L54,24 L82,24 L82,76 L30,76 L30,54 L2,54 L2,2 L54,2 Z" id="Combined-Shape" fill="#FFF1F2"></path>
+        </g>
+        <g id="Intersection-Area" transform="translate(438.000000, 36.000000)">
+            <rect id="Groundtruth" stroke="#22C55E" stroke-width="2" x="1" y="1" width="54" height="54"></rect>
+            <rect id="Prediction" stroke="#EF4444" stroke-width="2" x="29" y="23" width="54" height="54"></rect>
+            <path d="M54,24 L54,54 L30,54 L30,24 L54,24 Z" id="Intersection" fill="#FFF1F2"></path>
+        </g>
+    </g>
+</svg>
