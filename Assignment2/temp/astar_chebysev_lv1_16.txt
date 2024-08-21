@@ -1,0 +1,95 @@
+Expanded nodes: 261
+Runtime: 0.021663904190063477
+Runtime of astar: 0.02 second.
+['r', 'U', 'R', 'd', 'r', 'U', 'U', 'l', 'L', 'd', 'l', 'U']
+Costs:  12
+
+Expanded nodes: 39
+Runtime: 0.003004312515258789
+Runtime of astar: 0.00 second.
+['U', 'U', 'd', 'd', 'r', 'r', 'r', 'U', 'U']
+Costs:  9
+
+Expanded nodes: 54
+Runtime: 0.00653386116027832
+Runtime of astar: 0.01 second.
+['L', 'r', 'd', 'r', 'd', 'd', 'D', 'L', 'd', 'l', 'l', 'U', 'U', 'd', 'R']
+Costs:  15
+
+Expanded nodes: 35
+Runtime: 0.0020062923431396484
+Runtime of astar: 0.00 second.
+['l', 'l', 'l', 'd', 'R', 'R', 'R']
+Costs:  7
+
+Expanded nodes: 386
+Runtime: 0.0653676986694336
+Runtime of astar: 0.07 second.
+['u', 'l', 'u', 'R', 'R', 'd', 'r', 'U', 'U', 'U', 'd', 'l', 'L', 'U', 'd', 'L', 'd', 'l', 'U', 'U']
+Costs:  20
+
+Expanded nodes: 231
+Runtime: 0.013303041458129883
+Runtime of astar: 0.01 second.
+['d', 'l', 'l', 'u', 'R', 'd', 'r', 'U', 'U', 'U', 'd', 'd', 'r', 'r', 'u', 'u', 'u', 'l', 'L']
+Costs:  19
+
+Expanded nodes: 1835
+Runtime: 0.18477582931518555
+Runtime of astar: 0.19 second.
+['L', 'U', 'U', 'U', 'l', 'u', 'R', 'd', 'd', 'd', 'd', 'L', 'd', 'l', 'U', 'U', 'U', 'U', 'l', 'u', 'R']
+Costs:  21
+
+Expanded nodes: 2432
+Runtime: 0.2737116813659668
+Runtime of astar: 0.27 second.
+['l', 'l', 'D', 'D', 'D', 'D', 'D', 'D', 'l', 'd', 'd', 'd', 'r', 'r', 'u', 'u', 'L', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'r', 'r', 'd', 'L', 'u', 'l', 'D', 'D', 'D', 'D', 'D', 'D', 'l', 'l', 'l', 'd', 'd', 'r', 'r', 'U', 'd', 'l', 'l', 'u', 'u', 'r', 'R', 'd', 'd', 'd', 'r', 'r', 'u', 'u', 'L', 'U', 'U', 'U', 'U', 'U', 'U', 'l', 'u', 'R', 'd', 'd', 'd', 'd', 'd', 'd', 'd', 'r', 'd', 'd', 'l', 'l', 'u', 'U', 'd', 'l', 'l', 'u', 'u', 'r', 'R', 'd', 'r', 'U', 'U', 'U', 'U', 'U', 'U']
+Costs:  97
+
+Expanded nodes: 34
+Runtime: 0.003005504608154297
+Runtime of astar: 0.00 second.
+['d', 'l', 'U', 'd', 'l', 'l', 'U', 'R']
+Costs:  8
+
+Expanded nodes: 204
+Runtime: 0.015029191970825195
+Runtime of astar: 0.02 second.
+['d', 'l', 'U', 'r', 'r', 'r', 'd', 'L', 'u', 'l', 'l', 'd', 'd', 'r', 'U', 'l', 'u', 'R', 'u', 'u', 'l', 'D', 'r', 'd', 'd', 'r', 'r', 'u', 'L', 'd', 'l', 'U', 'U']
+Costs:  33
+
+Expanded nodes: 288
+Runtime: 0.018471479415893555
+Runtime of astar: 0.02 second.
+['r', 'D', 'l', 'd', 'd', 'r', 'r', 'r', 'u', 'u', 'L', 'L', 'r', 'r', 'd', 'd', 'l', 'l', 'U', 'd', 'r', 'r', 'u', 'u', 'l', 'u', 'l', 'l', 'D', 'R', 'd', 'd', 'l', 'U']
+Costs:  34
+
+Expanded nodes: 769
+Runtime: 0.07152128219604492
+Runtime of astar: 0.07 second.
+['r', 'r', 'D', 'u', 'l', 'l', 'd', 'R', 'R', 'u', 'r', 'D', 'r', 'd', 'd', 'l', 'l', 'U', 'R', 'u', 'u', 'l', 'D']
+Costs:  23
+
+Expanded nodes: 1997
+Runtime: 0.18577933311462402
+Runtime of astar: 0.19 second.
+['d', 'r', 'r', 'd', 'r', 'r', 'u', 'L', 'L', 'u', 'u', 'r', 'D', 'D', 'u', 'l', 'l', 'l', 'd', 'R', 'l', 'd', 'd', 'r', 'r', 'u', 'U', 'r', 'r', 'd', 'L']
+Costs:  31
+
+Expanded nodes: 12948
+Runtime: 1.672194004058838
+Runtime of astar: 1.69 second.
+['u', 'l', 'l', 'D', 'L', 'd', 'R', 'u', 'u', 'r', 'r', 'd', 'L', 'L', 'r', 'r', 'd', 'd', 'l', 'U', 'r', 'u', 'L']
+Costs:  23
+
+Expanded nodes: 2360
+Runtime: 0.3401517868041992
+Runtime of astar: 0.34 second.
+['r', 'd', 'd', 'L', 'r', 'u', 'u', 'l', 'D', 'l', 'D', 'D', 'D', 'r', 'd', 'L', 'L', 'd', 'l', 'l', 'u', 'R', 'u', 'R', 'l', 'd', 'd', 'r', 'U', 'r', 'U', 'U', 'U', 'l', 'u', 'R', 'R', 'R', 'd', 'L', 'u', 'l', 'D', 'D', 'D', 'r', 'd', 'L', 'L', 'd', 'l', 'l', 'u', 'R', 'u', 'R', 'l', 'd', 'd', 'r', 'U', 'r', 'U', 'U', 'U', 'l', 'u', 'R', 'd', 'd', 'd', 'd', 'l', 'l', 'u', 'R', 'd', 'r', 'U', 'U', 'U', 'r', 'r', 'u', 'u', 'l', 'D', 'r', 'd', 'L', 'u', 'L', 'D', 'D', 'D', 'r', 'd', 'L', 'L', 'u', 'l', 'D', 'r', 'd', 'L']
+Costs:  105
+
+Expanded nodes: 1533
+Runtime: 0.36376261711120605
+Runtime of astar: 0.37 second.
+['R', 'u', 'r', 'r', 'd', 'd', 'd', 'd', 'l', 'D', 'R', 'u', 'u', 'u', 'u', 'L', 'L', 'L', 'r', 'd', 'R', 'D', 'r', 'd', 'd', 'l', 'L', 'd', 'l', 'l', 'U', 'U', 'd', 'R']
+Costs:  34

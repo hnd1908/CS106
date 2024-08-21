@@ -1,0 +1,127 @@
+Start state: ((4, 1), ((3, 2), (3, 3)))
+End state: ((2, 1), ((1, 4), (1, 1)))
+Expanded nodes: 818
+Runtime:  0.057085514068603516
+Runtime of ucs: 0.06 second.
+['r', 'U', 'R', 'd', 'r', 'U', 'U', 'l', 'L', 'd', 'l', 'U']
+Costs:  12
+
+Start state: ((4, 1), ((3, 1), (3, 4)))
+End state: ((2, 4), ((1, 1), (1, 4)))
+Expanded nodes: 82
+Runtime:  0.005012989044189453
+Runtime of ucs: 0.01 second.
+['U', 'U', 'd', 'd', 'r', 'r', 'r', 'U', 'U']
+Costs:  9
+
+Start state: ((1, 3), ((1, 2), (5, 1), (5, 3), (5, 4)))
+End state: ((5, 2), ((1, 1), (6, 4), (3, 1), (5, 3)))
+Expanded nodes: 677
+Runtime:  0.10410332679748535
+Runtime of ucs: 0.11 second.
+['L', 'r', 'd', 'r', 'd', 'd', 'D', 'L', 'd', 'l', 'l', 'U', 'U', 'd', 'R']
+Costs:  15
+
+Start state: ((1, 5), ((2, 3),))
+End state: ((2, 5), ((2, 6),))
+Expanded nodes: 89
+Runtime:  0.005508899688720703
+Runtime of ucs: 0.01 second.
+['l', 'l', 'l', 'd', 'R', 'R', 'R']
+Costs:  7
+
+Start state: ((8, 5), ((4, 5), (5, 5), (6, 5)))
+End state: ((4, 3), ((3, 7), (3, 5), (3, 3)))
+Expanded nodes: 687417
+Runtime:  144.88906168937683
+Runtime of ucs: 147.36 second.
+['u', 'l', 'u', 'R', 'R', 'd', 'r', 'U', 'U', 'U', 'd', 'l', 'L', 'U', 'd', 'L', 'd', 'l', 'U', 'U']
+Costs:  20
+
+Start state: ((4, 3), ((4, 2),))
+End state: ((1, 3), ((1, 2),))
+Expanded nodes: 250
+Runtime:  0.012517213821411133
+Runtime of ucs: 0.01 second.
+['d', 'l', 'l', 'u', 'R', 'd', 'r', 'U', 'U', 'U', 'd', 'd', 'r', 'r', 'u', 'u', 'u', 'l', 'L']
+Costs:  19
+
+Start state: ((5, 5), ((4, 4), (5, 4)))
+End state: ((1, 2), ((1, 5), (1, 3)))
+Expanded nodes: 7110
+Runtime:  0.6358742713928223
+Runtime of ucs: 0.64 second.
+['L', 'U', 'U', 'U', 'l', 'u', 'R', 'd', 'd', 'd', 'd', 'L', 'd', 'l', 'U', 'U', 'U', 'U', 'l', 'u', 'R']
+Costs:  21
+
+Start state: ((1, 6), ((2, 4), (2, 5)))
+End state: ((2, 4), ((1, 5), (1, 4)))
+Expanded nodes: 2425
+Runtime:  0.24309396743774414
+Runtime of ucs: 0.24 second.
+['l', 'l', 'D', 'D', 'D', 'D', 'D', 'D', 'l', 'd', 'd', 'd', 'r', 'r', 'u', 'u', 'L', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'r', 'r', 'd', 'L', 'u', 'l', 'D', 'D', 'D', 'D', 'D', 'D', 'l', 'l', 'l', 'd', 'd', 'r', 'r', 'U', 'd', 'l', 'l', 'u', 'u', 'r', 'R', 'd', 'd', 'd', 'r', 'r', 'u', 'u', 'L', 'U', 'U', 'U', 'U', 'U', 'U', 'l', 'u', 'R', 'd', 'd', 'd', 'd', 'd', 'd', 'd', 'r', 'd', 'd', 'l', 'l', 'u', 'U', 'd', 'l', 'l', 'u', 'u', 'r', 'R', 'd', 'r', 'U', 'U', 'U', 'U', 'U', 'U']
+Costs:  97
+
+Start state: ((3, 5), ((3, 2), (3, 3), (3, 4)))
+End state: ((3, 3), ((2, 4), (2, 2), (3, 4)))
+Expanded nodes: 105
+Runtime:  0.010343313217163086
+Runtime of ucs: 0.01 second.
+['d', 'l', 'U', 'd', 'l', 'l', 'U', 'R']
+Costs:  8
+
+Start state: ((3, 2), ((3, 1), (4, 3)))
+End state: ((2, 2), ((3, 1), (1, 2)))
+Expanded nodes: 230
+Runtime:  0.015098094940185547
+Runtime of ucs: 0.02 second.
+['d', 'l', 'U', 'r', 'r', 'r', 'd', 'L', 'u', 'l', 'l', 'd', 'd', 'r', 'U', 'l', 'u', 'R', 'u', 'u', 'l', 'D', 'r', 'd', 'd', 'r', 'r', 'u', 'L', 'd', 'l', 'U', 'U']
+Costs:  33
+
+Start state: ((1, 1), ((2, 2), (2, 3)))
+End state: ((3, 1), ((2, 3), (2, 1)))
+Expanded nodes: 300
+Runtime:  0.016013383865356445
+Runtime of ucs: 0.02 second.
+['r', 'D', 'l', 'd', 'd', 'r', 'r', 'r', 'u', 'u', 'L', 'L', 'r', 'r', 'd', 'd', 'l', 'l', 'U', 'd', 'r', 'r', 'u', 'u', 'l', 'u', 'l', 'l', 'D', 'R', 'd', 'd', 'l', 'U']
+Costs:  34
+
+Start state: ((1, 1), ((2, 2), (2, 3)))
+End state: ((2, 3), ((3, 5), (3, 3)))
+Expanded nodes: 1266
+Runtime:  0.09366130828857422
+Runtime of ucs: 0.09 second.
+['r', 'r', 'D', 'u', 'l', 'l', 'd', 'R', 'R', 'u', 'r', 'D', 'r', 'd', 'd', 'l', 'l', 'U', 'R', 'u', 'u', 'l', 'D']
+Costs:  23
+
+Start state: ((2, 1), ((2, 4), (3, 4)))
+End state: ((4, 4), ((2, 3), (4, 3)))
+Expanded nodes: 2382
+Runtime:  0.19127845764160156
+Runtime of ucs: 0.19 second.
+['d', 'r', 'r', 'd', 'r', 'r', 'u', 'L', 'L', 'u', 'u', 'r', 'D', 'D', 'u', 'l', 'l', 'l', 'd', 'R', 'l', 'd', 'd', 'r', 'r', 'u', 'U', 'r', 'r', 'd', 'L']
+Costs:  31
+
+Start state: ((2, 6), ((2, 3), (2, 4), (2, 5)))
+End state: ((2, 5), ((2, 2), (2, 3), (2, 4)))
+Expanded nodes: 27440
+Runtime:  3.15169358253479
+Runtime of ucs: 3.17 second.
+['u', 'l', 'l', 'D', 'L', 'd', 'R', 'u', 'u', 'r', 'r', 'd', 'L', 'L', 'r', 'r', 'd', 'd', 'l', 'U', 'r', 'u', 'L']
+Costs:  23
+
+Start state: ((1, 5), ((2, 5), (3, 5), (5, 3)))
+End state: ((7, 2), ((2, 7), (2, 3), (7, 1)))
+Expanded nodes: 2519
+Runtime:  0.3229203224182129
+Runtime of ucs: 0.32 second.
+['r', 'd', 'd', 'L', 'r', 'u', 'u', 'l', 'D', 'l', 'D', 'D', 'D', 'r', 'd', 'L', 'L', 'd', 'l', 'l', 'u', 'R', 'u', 'R', 'l', 'd', 'd', 'r', 'U', 'r', 'U', 'U', 'U', 'l', 'u', 'R', 'R', 'R', 'd', 'L', 'u', 'l', 'D', 'D', 'D', 'r', 'd', 'L', 'L', 'd', 'l', 'l', 'u', 'R', 'u', 'R', 'l', 'd', 'd', 'r', 'U', 'r', 'U', 'U', 'U', 'l', 'u', 'R', 'd', 'd', 'd', 'd', 'l', 'l', 'u', 'R', 'd', 'r', 'U', 'U', 'U', 'r', 'r', 'u', 'u', 'l', 'D', 'r', 'd', 'L', 'u', 'L', 'D', 'D', 'D', 'r', 'd', 'L', 'L', 'u', 'l', 'D', 'r', 'd', 'L']
+Costs:  105
+
+Start state: ((2, 2), ((2, 3), (3, 4), (4, 4), (6, 1), (6, 3), (6, 4), (6, 5)))
+End state: ((6, 2), ((7, 4), (6, 6), (2, 1), (3, 5), (5, 4), (4, 1), (6, 3)))
+Expanded nodes: 70366
+Runtime:  21.241040229797363
+Runtime of ucs: 21.39 second.
+['R', 'u', 'r', 'r', 'd', 'd', 'd', 'd', 'l', 'D', 'R', 'u', 'u', 'u', 'u', 'L', 'L', 'L', 'r', 'd', 'R', 'D', 'r', 'd', 'd', 'l', 'L', 'd', 'l', 'l', 'U', 'U', 'd', 'R']
+Costs:  34
